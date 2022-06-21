@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Incubadora</string>
+    <string name="app_name">Newborn</string>
     <string name="estado_desactivado">Estado: Desactivado</string>
     <string name="activar">Activar</string>
     <string name="direcci_n_ip">Dirección IP</string>
