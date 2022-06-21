@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.incubadora">
+    package="com.project.newborn">
 
     <!-- Permisos -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -16,65 +16,65 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Incubadora">
+        android:theme="@style/Theme.Newborn">
 
         <activity
-            android:name=".Activities.Patient"
+            android:name="com.project.newborn.Activities.Patient"
             android:label="Datos del paciente"
             android:exported="true">
 
         </activity>
 
         <activity
-            android:name=".Activities.PatientList"
+            android:name="com.project.newborn.Activities.PatientList"
             android:label="Lista de pacientes"
             android:exported="true">
         </activity>
 
         <activity
-            android:name=".Activities.AssignIncubator"
+            android:name="com.project.newborn.Activities.AssignIncubator"
             android:label="Asignar incubadora"
             android:exported="true">
         </activity>
 
         <activity
-            android:name=".Activities.CameraStream"
+            android:name="com.project.newborn.Activities.CameraStream"
             android:label="Cámara Stream"
             android:exported="true">
         </activity>
 
         <activity
-            android:name=".Activities.IncubatorList"
+            android:name="com.project.newborn.Activities.IncubatorList"
             android:label="Lista de incubadoras"
             android:exported="true">
         </activity>
 
         <activity
-            android:name=".Activities.Sensor"
+            android:name="com.project.newborn.Activities.Sensor"
             android:label="Sensor"
             android:exported="true">
         </activity>
 
         <activity
-            android:name=".Activities.Incubator"
+            android:name="com.project.newborn.Activities.Incubator"
             android:label="Incubadora"
             android:exported="true">
         </activity>
 
         <activity
-            android:name=".Activities.Camera"
+            android:name="com.project.newborn.Activities.Camera"
             android:label="Cámara"
             android:exported="true">
         </activity>
 
         <activity
-            android:name=".Activities.Alarm"
+            android:name="com.project.newborn.Activities.Alarm"
             android:label="Alarma"
             android:exported="true">
         </activity>
 
         <activity
-            android:name=".Activities.Initial"
+            android:name="com.project.newborn.Activities.Initial"
             android:label="Newborn"
             android:exported="true">
             <intent-filter>  <!-- Esto es exclusivo de la pantalla principal/inicial -->
@@ -85,8 +85,8 @@
 
         <!-- Mqtt Service -->
         <service android:name="org.eclipse.paho.android.service.MqttService" />
-        <service android:name=".resources.MqttServiceAlarm" android:enabled="true" />
-        <service android:name=".resources.MqttServicePatient" android:enabled="true" />
+        <service android:name="com.project.newborn.resources.MqttServiceAlarm" android:enabled="true" />
+        <service android:name="com.project.newborn.resources.MqttServicePatient" android:enabled="true" />
     </application>
 
 </manifest>
