@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/luisg/.gradle/caches/transforms-3/02e0bd612fca2a22099e175f45d3c7d6/transformed/appcompat-1.4.1/res/layout/support_simple_spinner_dropdown_item.xml" value="0.13269927536231885" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1635" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1635" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/alarm.xml" value="0.264" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/assign_incubator.xml" value="0.264" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/camera.xml" value="0.4" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/camera_stream.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/incubator.xml" value="0.264" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/incubator_list.xml" value="0.2" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/initial.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/listaPaciente.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/listaPacientes.xml" value="0.264" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/lista_pacientes.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/login.xml" value="0.4" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/paciente.xml" value="0.264" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/patient.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/patient_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/principal.xml" value="0.264" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/principal_pruebas.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/prueba_errores.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/luisg/AndroidStudioProjects/Incubadora/app/src/main/res/layout/sensor.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

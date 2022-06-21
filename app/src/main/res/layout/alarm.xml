@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ScreenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="29dp"
+            android:text="@string/alarm"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="8sp"
+            android:orientation="vertical"
+            tools:layout_marginStart="8sp">
+
+            <TableLayout
+                android:id="@+id/lytAlarmData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0,1">
+
+                <TableRow android:id="@+id/trAlarmDataLabels">
+
+                    <TextView
+                        android:id="@+id/tvAlarmMaxLimit"
+                        android:layout_column="0"
+                        android:text="@string/l_mite_superior" />
+
+                    <TextView
+                        android:id="@+id/tvAlarmMinLimit"
+                        android:layout_column="0"
+                        android:text="@string/l_mite_inferior" />
+
+                </TableRow>
+
+                <TableRow android:id="@+id/trAlarmDataContent">
+
+                    <EditText
+                        android:id="@+id/etAlarmMaxLimit"
+                        android:layout_column="0"
+                        android:height="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <EditText
+                        android:id="@+id/etAlarmMinLimit"
+                        android:layout_column="0"
+                        android:height="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50sp"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnSave"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/guardar" />
+
+                <Button
+                    android:id="@+id/btnRemove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/eliminar" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
