@@ -12,7 +12,6 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/ScreenTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -32,26 +31,23 @@
             tools:layout_marginStart="8sp">
 
             <TableLayout
-                android:id="@+id/lytAlarmData"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:stretchColumns="0,1">
 
-                <TableRow android:id="@+id/trAlarmDataLabels">
+                <TableRow>
 
                     <TextView
-                        android:id="@+id/tvAlarmMaxLimit"
                         android:layout_column="0"
                         android:text="@string/l_mite_superior" />
 
                     <TextView
-                        android:id="@+id/tvAlarmMinLimit"
                         android:layout_column="0"
                         android:text="@string/l_mite_inferior" />
 
                 </TableRow>
 
-                <TableRow android:id="@+id/trAlarmDataContent">
+                <TableRow>
 
                     <EditText
                         android:id="@+id/etAlarmMaxLimit"

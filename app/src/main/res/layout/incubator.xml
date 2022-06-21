@@ -13,7 +13,6 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/ScreenTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -25,7 +24,6 @@
             android:textStyle="bold" />
 
         <LinearLayout
-            android:id="@+id/lytComponentTables"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8sp"
@@ -39,21 +37,19 @@
                 android:layout_height="wrap_content"
                 android:stretchColumns="0,1">
 
-                <TableRow android:id="@+id/trIncubatorDataLabels">
+                <TableRow>
 
                     <TextView
-                        android:id="@+id/tvNumber"
                         android:layout_column="0"
                         android:text="@string/numero" />
 
                     <TextView
-                        android:id="@+id/tvName"
                         android:layout_column="1"
                         android:text="@string/nombre_c_digo" />
 
                 </TableRow>
 
-                <TableRow android:id="@+id/trIncubatorDataContent">
+                <TableRow>
 
                     <EditText
                         android:id="@+id/etIncubatorNumber"
@@ -67,18 +63,15 @@
 
                 </TableRow>
 
-                <TableRow android:id="@+id/trIncubatorDataLabels2">
+                <TableRow>
 
                     <TextView
-                        android:id="@+id/tvIPAddress"
                         android:layout_column="0"
                         android:text="@string/direcci_n_ip" />
 
                 </TableRow>
 
-                <TableRow
-                    android:id="@+id/trIncubatorDataContent2"
-                    android:layout_width="wrap_content">
+                <TableRow android:layout_width="wrap_content">
 
                     <EditText
                         android:id="@+id/etIncubatorIPAddress"
@@ -121,7 +114,6 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tvSensor"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_marginTop="2sp"
@@ -161,7 +153,6 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/tvCamera"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
